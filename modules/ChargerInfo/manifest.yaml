@@ -1,0 +1,12 @@
+description: Provides a charger information interface, backed by a simple KVS interface.
+provides:
+  charger_information:
+    interface: charger_information
+    description: Provides the charger information interface
+requires:
+  kvs:
+    interface: kvs
+metadata:
+  license: https://opensource.org/licenses/Apache-2.0
+  authors:
+    - Michael Heimpold
